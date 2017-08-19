@@ -1,7 +1,7 @@
 # Dataset of materials within glass vessels
-New [dataset](https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing) for images of materials in transparent vessels in chemistry laboratory setting is presented. This data set contains a thousand images with pixel-wise annotation according to categories ranging from filled and empty to the exact physical phase of the material inside the vessel (liquid, solid, powder, foam, vapors…). 
+New [data set](https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing) of images of materials in transparent vessels in chemistry laboratory setting is presented. This data set contains a thousand images with pixel-wise annotation according to categories ranging from filled and empty to the exact physical phase of the material inside the vessel (liquid, solid, powder, foam, vapors…). 
 
-The data set can be downloaded from [here](https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing)
+The data set can be downloaded from https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing
 ## General 
 Handling of materials in glassware vessels in the primary task in chemistry laboratory research as well as a large number of other activities.  Visual recognition of the physical phase of the materials is essential to for many methods ranging from a simple task like fill level evaluation to identifying more complex properties such a solvation,  precipitation, crystallization, phase separation.  To help train neural nets for this task a new dataset is presented.  The data set contains a thousand images of materials in different phases and involved in different chemical processes, in a laboratory setting. 
 ## Dataset labels
@@ -31,6 +31,6 @@ Reader for loading images and annotation from data set
 ### OverrlayLabelOnImage.py
 Overlay the annotation/label on the image for display purpose
 ### RUN_OverLayGroundTruthLabel.py
-A simple script that use the above scripts to read the annotation and image from the data set, and overlay the annotation on the image for display purpose.
+A simple script that use the above scripts to read the annotations and images from the data set, and overlay the annotation on the image for display purpose.
 
 
