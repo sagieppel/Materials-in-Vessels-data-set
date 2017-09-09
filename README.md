@@ -6,9 +6,11 @@ The data set can be downloaded from each of the following links:
 2) https://mega.nz/#!4DQA3LTC!z2jA88Ve_K5f32AaNFrBOWdCtx8CXq65j3wt0nvzH-0
 
 The data set is discussed in the paper: [Setting an attention region for convolutional neural networks using region selective features, for recognition of materials within glass vessels](https://arxiv.org/abs/1708.08711)
-![](/Figure1.jpg)
+
 ## General 
 The handling of materials in glassware vessels is the main task in chemistry laboratory research as well as a large number of other activities such as beverage handling. Visual recognition of the physical phase of the materials is essential for many methods ranging from a simple task such as fill-level evaluation to the identification of more complex properties such as solvation, precipitation, crystallization and phase separation. To help train neural nets for this task, a new data set was created. The data set contains a thousand images of materials, in different phases and involved in different chemical processes, in a laboratory setting.
+
+![](/Figure1.jpg)
 ## Dataset labels
 Each pixel in each image is labeled according to several layers of classification given below (Figure 1): 
 
