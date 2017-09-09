@@ -6,6 +6,7 @@ The data set can be downloaded from each of the following links:
 2) https://mega.nz/#!4DQA3LTC!z2jA88Ve_K5f32AaNFrBOWdCtx8CXq65j3wt0nvzH-0
 
 The data set is discussed in the paper: [Setting an attention region for convolutional neural networks using region selective features, for recognition of materials within glass vessels](https://arxiv.org/abs/1708.08711)
+![](/Figure1.jpg)
 ## General 
 The handling of materials in glassware vessels is the main task in chemistry laboratory research as well as a large number of other activities such as beverage handling. Visual recognition of the physical phase of the materials is essential for many methods ranging from a simple task such as fill-level evaluation to the identification of more complex properties such as solvation, precipitation, crystallization and phase separation. To help train neural nets for this task, a new data set was created. The data set contains a thousand images of materials, in different phases and involved in different chemical processes, in a laboratory setting.
 ## Dataset labels
@@ -20,7 +21,7 @@ c. Phase type: Similar to above but distinguish between liquid and solid regions
 d. The exact physical phase of material: Similar to above but distinguish between specific physical phases classes. For each pixel assign one of 15 values: 1) Background. 2) Empty Vessel. 3) Liquid. 4) Liquid Phase two (in case more than one phase of liquid appear in the vessel). 5) Suspension. 6) Emulsion. 7) Foam. 8) Solid. 9) Gel. 10) Powder. 11) Granular. 12) Bulk. 13) Solid and liquid mixture. 14) Solid Phase two (in case more than one phase of solid exist in the vessel). 15) Vapor.
 
 The annotations are given as images in the size of the original image where the pixel value is the class number. 
-![](/Figure1.jpg)
+
 
 ## Validation/Testing set:
 The data set is divided into training and validation sets. The testing set is used to test the predictions of nets trained using the training set. The testing set is itself divided into two subsets; one contains images extracted from the same YouTube channels as the training set, and therefore was taken under similar conditions as the training images. The second subset contains images extracted from YouTube channels not included in the training set, and hence contains images taken under different conditions from those used to train the net. The purpose of the second set is to measure the overfitting of the net to the specific conditions of the training set.
