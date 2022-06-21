@@ -4,8 +4,8 @@
 New [data set](https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing) of images of materials in transparent vessels in chemistry laboratory setting is presented. This data set contains a thousand images with pixel-wise annotation according to categories ranging from filled and empty to the exact physical phase of the material inside the vessel (liquid, solid, powder, foam, vapors…). 
 
 The data set can be downloaded from each of the following links:
-1) https://drive.google.com/file/d/0B6njwynsu2hXRFpmY1pOV1A4SFE/view?usp=sharing
-2) https://mega.nz/#!4DQA3LTC!z2jA88Ve_K5f32AaNFrBOWdCtx8CXq65j3wt0nvzH-0
+1) https://zenodo.org/record/5769354/files/Materials_In_Vessels.zip?download=1
+2) https://drive.google.com/file/d/1ZprwbJqvcPnQ8pkqV5prVJQtvhIPy8QG/view?usp=sharing
 
 The data set is discussed in the paper: [Setting an attention region for convolutional neural networks using region selective features, for recognition of materials within glass vessels](https://arxiv.org/abs/1708.08711)
 
